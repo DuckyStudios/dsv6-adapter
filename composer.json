@@ -1,3 +1,38 @@
 {
-  "name": ""
+  "name": "duckystudios/dsv6-adapter",
+  "description": "Adapter for the german swimming protocol in php, making the digitalisation of it much easier.",
+  "keywords": [
+      "swimming",
+      "dsv6",
+      "dsv",
+      "german",
+      "swimming",
+      "protocol",
+      "digitalisation",
+      "adapter"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+      {
+          "name": "Levi Heßmann",
+          "email": "levi@dcky.io"
+      }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.*"
+  },
+  "autoload": {
+      "psr-4": {
+          "Duckystudios\\DSV6Adapter\\": "src/"
+      }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "Duckystudios\\DSV6Adapter\\Tests\\": "tests/"
+      }
+  }
 }
