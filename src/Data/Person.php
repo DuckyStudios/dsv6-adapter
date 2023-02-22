@@ -29,7 +29,6 @@ class Person extends Data
         $this->jahrgang = $jahrgang;
     }
 
-
     public function getPrefix(): string
     {
         return 'PERSON';

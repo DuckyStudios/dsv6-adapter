@@ -8,6 +8,8 @@ enum Wettkampfart
     case ZWISCHENLAUF;
     case FINALE;
     case ENTSCHEIDUNG;
+    case AUSSCHWIMMEN;
+    case NACHSCHWIMMEN;
 
     public function get(): string
     {
@@ -16,6 +18,8 @@ enum Wettkampfart
             self::ZWISCHENLAUF => 'Z',
             self::FINALE => 'F',
             self::ENTSCHEIDUNG => 'E',
+            self::AUSSCHWIMMEN => 'A',
+            self::NACHSCHWIMMEN => 'N',
         };
     }
 }
