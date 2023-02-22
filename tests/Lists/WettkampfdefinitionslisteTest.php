@@ -38,7 +38,6 @@ class WettkampfdefinitionslisteTest extends TestCase
 
         printf($fb->build());
 
-
-        self::assertNotNull('a');
+        self::assertNotNull($fb->build());
     }
 }
