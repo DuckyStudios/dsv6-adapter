@@ -11,4 +11,4 @@ composer install duckystudios/dsv6-adapter
 ```
 
 ## Copyright and License
-The duckystudios/dsv6-adapter library is copyright © [dcky.io](https://dcky.io) and licensed for use under the Apache 2 License (APACHE-2). Please see [LICENSE]((https://github.com/DuckyStudios/dsv6-adapter/blob/master/LICENSE)) for more information.
+The duckystudios/dsv6-adapter library is copyright © [dcky.io](https://dcky.io) and licensed for use under the Apache 2 License (APACHE-2). Please see [LICENSE](https://github.com/DuckyStudios/dsv6-adapter/blob/master/LICENSE) for more information.
