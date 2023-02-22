@@ -1,6 +1,6 @@
 <?php
 
-namespace Duckystudios\DSV6Adapter\enums;
+namespace Duckystudios\DSV6Adapter\Enums;
 
 enum Zeitmessung
 {
@@ -8,12 +8,12 @@ enum Zeitmessung
     case AUTOMATISCH;
     case HALB_AUTOMATISCH;
 
-    public function getString(): string
+    public function get(): string
     {
         return match ($this) {
-            Zeitmessung::HANDZEIT => 'HANDZEIT',
-            Zeitmessung::AUTOMATISCH => 'AUTOMATISCH',
-            Zeitmessung::HALB_AUTOMATISCH => 'HALBAUTOMATISCH',
+            self::HANDZEIT => 'HANDZEIT',
+            self::AUTOMATISCH => 'AUTOMATISCH',
+            self::HALB_AUTOMATISCH => 'HALBAUTOMATISCH',
         };
     }
 }

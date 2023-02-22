@@ -14,7 +14,7 @@ enum Country
     case SPAIN;
     case PORTUGAL;
 
-    public function getFINAString(): string
+    public function get(): string
     {
         return match ($this) {
             Country::GERMANY => 'GER',

@@ -17,6 +17,9 @@ class DSV6StringBuilder
         return $this;
     }
 
+    /**
+     * @return string Gibt den gebauten String zurück
+     */
     public function build(): string
     {
         return $this->string;
