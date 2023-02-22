@@ -9,7 +9,7 @@ We distance ourselfes from the gender specific language used in the german swimm
 ## Installation
 The library requires at least PHP 8.1 and [Composer](http://getcomposer.org/) installed.
 ```
-composer install duckystudios/dsv6-adapter
+composer require duckystudios/dsv6-adapter
 ```
 
 ## Copyright and License
