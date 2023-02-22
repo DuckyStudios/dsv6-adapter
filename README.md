@@ -1,6 +1,8 @@
 # dsv6-adapter
 Adapter for the german swimming protocol in php, making the digitalisation of it much easier.
 
+The [documentation](https://www.dsv.de/fileadmin/dsv/documents/schwimmen/Amtliches/151111_DSVStandard_Version6.pdf) of the dsv6 protocol.
+
 ## Disclaimer
 We distance ourselfes from the gender specific language used in the german swimming protocol. We are aware that this is not the best way to address people and we are working on a solution to make this more inclusive. Also we want to make clear that we did **not** define the 2 gender Rule inside of it. This is just an adapter to make it easier to use it for software engineers. **Also we are not affiliated with the german swimming federation (DSV).**
 
